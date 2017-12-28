@@ -15,6 +15,9 @@
 		31C4BBEE1FF4E77200BE3D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C4BBED1FF4E77200BE3D56 /* main.m */; };
 		31C4BBF81FF4E77200BE3D56 /* RayRadiusOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C4BBF71FF4E77200BE3D56 /* RayRadiusOperationTests.m */; };
 		31C4BC031FF4E77200BE3D56 /* RayRadiusOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C4BC021FF4E77200BE3D56 /* RayRadiusOperationUITests.m */; };
+		31C4BC121FF4E7A200BE3D56 /* liaght@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C4BC101FF4E7A200BE3D56 /* liaght@3x.png */; };
+		31C4BC131FF4E7A200BE3D56 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C4BC111FF4E7A200BE3D56 /* 1.png */; };
+		31C4BC161FF4E7D300BE3D56 /* RayRadiusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C4BC151FF4E7D300BE3D56 /* RayRadiusView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		31C4BBFE1FF4E77200BE3D56 /* RayRadiusOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayRadiusOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C4BC021FF4E77200BE3D56 /* RayRadiusOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayRadiusOperationUITests.m; sourceTree = "<group>"; };
 		31C4BC041FF4E77200BE3D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C4BC101FF4E7A200BE3D56 /* liaght@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liaght@3x.png"; sourceTree = "<group>"; };
+		31C4BC111FF4E7A200BE3D56 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		31C4BC141FF4E7D300BE3D56 /* RayRadiusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RayRadiusView.h; sourceTree = "<group>"; };
+		31C4BC151FF4E7D300BE3D56 /* RayRadiusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayRadiusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,14 @@
 		31C4BBDD1FF4E77200BE3D56 /* RayRadiusOperation */ = {
 			isa = PBXGroup;
 			children = (
+				31C4BC111FF4E7A200BE3D56 /* 1.png */,
+				31C4BC101FF4E7A200BE3D56 /* liaght@3x.png */,
 				31C4BBDE1FF4E77200BE3D56 /* AppDelegate.h */,
 				31C4BBDF1FF4E77200BE3D56 /* AppDelegate.m */,
 				31C4BBE11FF4E77200BE3D56 /* ViewController.h */,
 				31C4BBE21FF4E77200BE3D56 /* ViewController.m */,
+				31C4BC141FF4E7D300BE3D56 /* RayRadiusView.h */,
+				31C4BC151FF4E7D300BE3D56 /* RayRadiusView.m */,
 				31C4BBE41FF4E77200BE3D56 /* Main.storyboard */,
 				31C4BBE71FF4E77200BE3D56 /* Assets.xcassets */,
 				31C4BBE91FF4E77200BE3D56 /* LaunchScreen.storyboard */,
@@ -238,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C4BC121FF4E7A200BE3D56 /* liaght@3x.png in Resources */,
 				31C4BBEB1FF4E77200BE3D56 /* LaunchScreen.storyboard in Resources */,
 				31C4BBE81FF4E77200BE3D56 /* Assets.xcassets in Resources */,
 				31C4BBE61FF4E77200BE3D56 /* Main.storyboard in Resources */,
+				31C4BC131FF4E7A200BE3D56 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C4BBE31FF4E77200BE3D56 /* ViewController.m in Sources */,
+				31C4BC161FF4E7D300BE3D56 /* RayRadiusView.m in Sources */,
 				31C4BBEE1FF4E77200BE3D56 /* main.m in Sources */,
 				31C4BBE01FF4E77200BE3D56 /* AppDelegate.m in Sources */,
 			);

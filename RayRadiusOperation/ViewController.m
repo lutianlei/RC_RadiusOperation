@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RayRadiusView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"1.png"]];
+    imageView.frame = CGRectMake(self.view.frame.size.width/2 - 70, self.view.frame.size.height/2 - 70, 140, 140);
+    [self.view addSubview:imageView];
+    
+    RayRadiusView *moveView = [[RayRadiusView alloc] init];
+    [moveView starAnimation:imageView];
+    
+    [self.view addSubview:moveView];
+    
 }
 
 
